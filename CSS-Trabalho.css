@@ -1,0 +1,114 @@
+/* Efeito rolagem */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Definição estilo base corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8FF;
+    color: #333;
+}
+
+/* Definição menu */
+header {
+    background-color: #FFDAB9;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8B4513;
+    font-weight: bold;
+    padding: 8px 15px;
+    display: block;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #FFC0CB;
+    color: #FFFFFF;
+}
+
+main {
+    padding-top: 80px; 
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+/* Definição estilo boas-vindas */
+.boas-vindas {
+    background-color: #FDF5E6;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #FFC0CB;
+}
+
+.boas-vindas h2 {
+    color: #CD5C5C;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.boas-vindas p {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 15px auto;
+}
+
+section {
+    background-color: #FFF0F5;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+/* Ajuste imagens */
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+h2 {
+    color: #CD5C5C;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Definição estilo rodapé da página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFDAB9; 
+    color: #8B4513; 
+    margin-top: 40px;
+}
